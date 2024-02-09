@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: bisque;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .container {
+    max-width: 800px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .intro {
+    margin-bottom: 20px;
+  }
+  
+  .input-fields {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align labels to the left */
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .phone-input {
+    display: flex;
+    justify-content: space-between; /* Distribute items with space between */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .country-code {
+    display: inline-block;
+    background-color: #eee; /* Light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #phone {
+    margin-right: 10px;
+  }
+  button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nude-div {
+    width: 100%;
+    height: 100px;
+    background-color: #F5F5DC; /* Nude color */
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
