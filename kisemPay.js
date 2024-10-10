@@ -60,7 +60,7 @@ async function startCollect(num, mail) {
     document.querySelector(".nude-div").textContent = data.message || data.error
 
     if (response.status === 200) {
-      window.location.href = 'redirect.html'
+      window.location.href = response.redirect
     } else {
       throw new Error('the response was not 200', response)
     }
