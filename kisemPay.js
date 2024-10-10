@@ -58,9 +58,8 @@ async function startCollect(num, mail) {
     const data = await response.json()
 
     document.querySelector(".nude-div").textContent = data.message || data.error
-
     if (response.status === 200) {
-      window.location.href = response.redirect
+      window.location.href = data.redirect
     } else {
       throw new Error('the response was not 200', response)
     }
